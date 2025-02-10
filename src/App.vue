@@ -71,6 +71,10 @@ const filterProducts = computed(()=>{
 </script>
 
 <style lang="scss" scoped>
+  li{
+    list-style: none;
+    color: inherit;
+  } 
   .app{
     height: 100vh;
     background-color: rgb(255, 191, 54);

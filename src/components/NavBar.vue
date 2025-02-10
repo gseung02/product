@@ -30,14 +30,19 @@ const selectedClick = (list) => {
     display: flex;
     justify-content: space-between;
     padding: 2rem 5rem;
-    background-color: red;
+    background-color: rgb(248, 20, 20);
     ul{
+      width: 450px;
       display: flex;
-      gap: 3rem;
+      justify-content: space-between;
+      // gap: 3rem;
       li{
         cursor: pointer;
         &:hover{
-          color: blue;
+          padding: 5px;
+          background-color: rgba(0, 0, 0, 0.3);
+          border-radius: 5px;
+          color: #fff;
           font-weight: bolder;
         }
       }
