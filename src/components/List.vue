@@ -1,11 +1,13 @@
 <template>
-  <div class="product-list">
-    <div class="card" v-for="list in products" :key="list.id">
-      <img :src="list.image" :alt="list.name">
-      <p>가격: {{ list.price }}</p>
-      <button @click="addToList(list)">장바구니 추가</button>
+  <div class="wrap">
+    <div class="product-list">
+      <div class="card" v-for="list in products" :key="list.id">
+        <img :src="list.image" :alt="list.name">
+        <p>가격: {{ list.price }}</p>
+        <button @click="addToList(list)">장바구니 추가</button>
+      </div>
     </div>
-  </div>
+</div>
 </template>
 
 <script setup>
@@ -22,6 +24,10 @@ const addToList = (list) => {
 </script>
 
 <style lang="scss" scoped>
+  .wrap{
+    width: 70%;
+    margin: 0 auto;
+  }
   .product-list{
     display: flex;
     flex-wrap: wrap;
