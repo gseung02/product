@@ -26,7 +26,7 @@ const addToList = (list) => {
 <style lang="scss" scoped>
   .wrap{
     width: 70%;
-    margin: 0 auto;
+    margin: 50px auto;
   }
   .product-list{
     display: flex;
