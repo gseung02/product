@@ -76,7 +76,6 @@ const filterProducts = computed(()=>{
     color: inherit;
   } 
   .app{
-    height: 100vh;
-    background-color: rgb(255, 191, 54);
+    // height: 100vh;
   }
 </style>

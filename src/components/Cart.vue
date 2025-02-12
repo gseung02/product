@@ -84,6 +84,9 @@
     border: 1px solid #222;
     border-radius: 5px;
   }
+  .cart-list,.cart-add{
+    padding: 20px;
+  }
   .cart-list{
     ul{
       li{
@@ -91,6 +94,12 @@
         align-items: center;
         gap: 1rem;
         padding: 1rem;
+        img{
+          width: 200px;
+          height: 200px;
+          object-fit: cover;
+          border-radius: 5px;
+        }
       }
     }
   }

@@ -30,7 +30,7 @@ const selectedClick = (list) => {
     display: flex;
     justify-content: space-between;
     padding: 2rem 5rem;
-    background-color: rgb(248, 20, 20);
+    background-color: rgb(255, 81, 17);
     ul{
       width: 450px;
       display: flex;

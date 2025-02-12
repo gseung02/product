@@ -3,6 +3,7 @@
     <div class="product-list">
       <div class="card" v-for="list in products" :key="list.id">
         <img :src="list.image" :alt="list.name">
+        <p>{{ list.name }}</p>
         <p>가격: {{ list.price }}</p>
         <button @click="addToList(list)">장바구니 추가</button>
       </div>
@@ -25,9 +26,10 @@ const addToList = (list) => {
 
 <style lang="scss" scoped>
   .wrap{
-    background-color: #fff;
+    // background-color: #fff;
+    // background-color: rgb(255, 235, 148);
     padding: 50px 0;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
   }
   .product-list{
@@ -38,6 +40,9 @@ const addToList = (list) => {
     .card{
       width: 200px;
       text-align: center;
+      border: 1px solid orangered;
+      border-radius: 20px;
+      padding: 20px;
       img{
         width: 100%;
         height: 200px;
