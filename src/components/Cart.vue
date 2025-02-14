@@ -75,13 +75,19 @@
 </script>
 
 <style lang="scss" scoped>
+h2{
+  margin-bottom: 20px;
+}
+p{
+  margin-bottom: 10px;
+}
 .cart{
   display: flex;
   padding: 2rem 5rem;
   gap: 1rem;
   div{
     flex: 1;
-    border: 1px solid #222;
+    border: 1px solid orangered;
     border-radius: 5px;
   }
   .cart-list,.cart-add{

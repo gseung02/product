@@ -30,8 +30,13 @@ const selectedClick = (list) => {
     display: flex;
     justify-content: space-between;
     padding: 2rem 5rem;
-    background-color: rgb(255, 81, 17);
-    
+    border-bottom: 2px solid orangered;
+    // background-color: #fff;
+    background-color: rgb(255, 235, 148);
+
+    h1,.router-link{
+      color: orangered;
+    }
     ul{
       width: 450px;
       display: flex;
@@ -41,7 +46,7 @@ const selectedClick = (list) => {
         cursor: pointer;
         &:hover{
           padding: 5px;
-          background-color: rgba(0, 0, 0, 0.3);
+          background-color: rgba(255, 69, 0, 0.8);
           border-radius: 5px;
           color: #fff;
           font-weight: bolder;

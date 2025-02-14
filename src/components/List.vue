@@ -49,6 +49,12 @@ const addToList = (list) => {
         object-fit: cover;
         border-radius: 5px;
       }
+      p{
+        margin: 10px 0;
+      }
+      button{
+        margin-top: 10px;
+      }
     }
   }
 </style>
